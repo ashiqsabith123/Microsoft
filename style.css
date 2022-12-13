@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;1000&display=swap');
+
+body{
+    font-family:'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.inner{
+    max-width: 1222px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.followouter{
+    margin-top: 23px;
+}
+
+.headouter{
+    padding-top: 14px;
+    padding-bottom: 20px;
+}
+
+.headinner{
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   justify-content: space-between;
+   height: 23px;
+}
+
+.logopic{
+    width: 128px;
+    height: 23px;
+    object-fit: contain;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.head1st{
+    display: flex;
+}
+
+.head2nd{
+    display: flex;
+}
+
+.menu{
+    margin-top: -14px;
+    margin-left: -19px;
+}
+
+.menu li:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.menu li{
+    display: inline;
+    font-size: 13px;
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+.iconmenu{
+    margin-top: -9px;
+}
+
+.iconmenu li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.drop{
+    margin-top: 4px;
+}
+
+.drop select{
+    font-family:'Nunito', sans-serif;
+    border: hidden;
+    background: transparent;
+}
+
+.surfaceouter{
+    padding-top: 20px;
+}
+
+.surfaceinner{
+   
+   
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-All-Colors-FY23HOL:VP4-1399x600);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 98px;
+    padding-top: 180px;
+    height: 420px;
+    
+}
+
+.surfacenew h2{
+    color: #950c17 !important;
+    background-color: white;
+    width: fit-content;
+    padding: 1px;
+    font-size: 15px;
+    padding: 5px 15px 5px 15px;
+}
+
+.surfaceh3 h3{
+    font-size: 28px;
+}
+
+.surfaceh3{
+    margin-top: -20px;
+}
+
+.surfacep1{
+    width: 32%;
+
+    margin-top: -13px;
+
+}
+
+.surfacebutton button{
+    color: white;
+    background-color: black;
+    border: hidden;
+    width: 107px;
+    height: 38px;
+    font-weight: 800;
+    font-family:'Nunito', sans-serif;
+}
+
+.surfacebutton{
+    margin-top: 28px;
+}
+
+.arrowmiddle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.arrowimg{
+    object-fit: cover;
+    width: 144px;
+    height: 50px;
+}
+
+.chooseouter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.chooseinner{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    text-align: center;
+    margin-left: -165px;
+}
+
+.cardouter{
+    margin-top: 65px;
+}
+
+.sp{
+    margin-left: 75px;
+}
+
+.sp p{
+    font-weight: 600;
+    border-bottom: 2px solid black;
+}
+
+.learncard{
+    width: 300px
+}
+
+.learncardpic{
+    width: 286px;
+    height: 161px;
+}
+
+.p1{
+   
+    text-align: justify;
+}
+
+.newcard{
+    background-color: #950c17;
+    color: #FFFFFF ;
+    width: fit-content;
+}
+
+.newcard p{
+    padding: 5px 15px 5px 15px;
+    font-weight: 600;
+}
+
+.h2{
+    margin-top: -14px;
+}
+
+.p1{
+    margin-top: -7px;
+    width: 93%;
+}
+
+.carda{
+    margin-top: 24px;
+}
+
+.carda a{
+    color: #950c17;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.cardinner{
+    display: flex;
+    justify-content: space-between;
+}
+
+body > section:nth-child(5) > div > div > div:nth-child(2) > div.h2{
+    margin-top: 54px;
+}
+
+body > section:nth-child(5) > div > div > div:nth-child(3) > div.h2{
+    margin-top: 54px;
+}
+
+body > section:nth-child(7) > div > div > div.bussinnescard > div:nth-child(2) > div.h2{
+    margin-top: 54px;
+}
+
+body > section:nth-child(7) > div > div > div.bussinnescard > div:nth-child(3) > div.h2{
+    margin-top: 54px;
+}
+
+body > section:nth-child(7) > div > div > div.bussinnescard > div:nth-child(4) > div.h2{
+    margin-top: 54px;
+}
+
+body > section:nth-child(5) > div > div > div:nth-child(4) > div.h2{
+    margin-top: 54px;
+}
+
+.edgeouter{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 106px;
+}
+
+.edgeinner{
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-MSFT-hero-Edge:VP4-1260x600);
+    background-position: center;
+    max-width: 1216px;
+    width: 100%;
+    height: 576px;
+    padding-left: 10px;
+}
+
+.edgemain{
+    background-color: #FFFFFF;
+    width: 351px;
+    height: fit-content;
+    margin-top: 145px;
+    padding: 23px 0px 46px 56px;
+    margin-left: 50px;
+}
+
+.edgeh2{
+    width: fit-content;
+}
+
+.edgeh2 h2{
+    font-size: 1.8125rem;
+   
+}
+
+.edgep1{
+    text-align: unset;
+    width: 87%;
+}
+
+.edgebutton{
+    width: fit-content;
+}
+
+.edgebutton button{
+    background-color: black;
+    color: white;
+    font-family:'Nunito', sans-serif;
+    border: hidden;
+    font-weight: 700;
+    font-size: 14px;
+    width: 135px;
+    height: 40px;
+}
+
+.bussinnescard{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bussinnesouter{
+    margin-top: 100px;
+}
+
+.followinnermain{
+    display:flex;
+}
+
+.followinner1{
+    margin-top: 7px;
+}
+
+.followinner2{
+    margin-left: -28px;
+}
+
+.followinner li{
+    display: inline;
+}
+
+.followicon{
+    width: 32px;
+    height: 32px;
+}
+
+.footerouter{
+    background: #f2f2f2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    padding-top: 25px;
+}
+
+.footerh3{
+    margin-left: 38px;
+}
+
+.footerh3 h3{
+    font-size: 15px;
+}
+
+.footerlist{
+    margin-top: -8px;
+}
+
+.footerlist li{
+    font-size: 11px;
+    margin-bottom: 19px;
+}
+
+.footerlastinner li{
+    font-size: 11px;
+    margin-right: 15px;
+}
+
+.footerinner{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1164px;
+    margin-left: 25px;
+}
+
+.footerlastinner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerlastimg{
+    width: 20px;
+    height: 20px;
+}
+
+.footerlastinner1 li{
+    display: inline;
+}
+
+
+.footerlastinner2 li{
+    display: inline;
+    
+}
+
+.footerlastouter{
+    background: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
